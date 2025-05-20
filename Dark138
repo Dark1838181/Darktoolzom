@@ -1,0 +1,12 @@
+mkdir proxy-render-api
+cd proxy-render-api
+
+git init
+git symbolic-ref HEAD refs/heads/main
+
+echo "# Proxy API" > README.md
+git add .
+git commit -m "first commit"
+
+git remote add origin https://github.com/ <tên-người-dùng>/<tên-repo>.git
+git push -u origin main
